@@ -5,5 +5,5 @@
 export { countryToEmoji } from "./src/main";
 // export default from './src/main';
 
-// declare const countryToEmoji
-// export default countryToEmoji
+declare const countryToEmoji
+export default countryToEmoji
