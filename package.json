@@ -1,6 +1,6 @@
 {
   "name": "countrytoemoji",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "Convert country name and ISO code to Emoji Flags not need dependencies",
   "main": "index.js",
   "directories": {
