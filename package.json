@@ -1,0 +1,27 @@
+{
+  "name": "countrytoemoji",
+  "version": "1.0.0",
+  "description": "Convert country name and ISO code to Emoji Flags not need dependencies",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/garyguoli/countrytoemoji.git"
+  },
+  "keywords": [
+    "countryToEmoji",
+    "country",
+    "emoji"
+  ],
+  "author": "Gary Guo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/garyguoli/countrytoemoji/issues"
+  },
+  "homepage": "https://github.com/garyguoli/countrytoemoji#readme"
+}
