@@ -28,4 +28,5 @@ countryToEmoji({ name: null, iso: null  })} ~> // enpty string
 countryToEmoji supports 2 options , both of wich are optional:
 
 name is country name (Defaults to null)
+
 iso is ISO code (Defaults to null)
