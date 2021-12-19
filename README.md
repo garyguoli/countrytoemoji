@@ -10,15 +10,17 @@ $ pnpm add countrytoemoji
 ```
 ## Usage
 
-// …
+
 countryToEmoji({ name: 'china' })
-// ~> 🇨🇳
+ ~> 🇨🇳
 
 
-// …
+
 countryToEmoji({ iso: 'cn' })
-// ~> 🇨🇳
+~> 🇨🇳
 
-// …
- {countryToEmoji({ name: null, iso: 'cn'  })}
-// ~> 🇨🇳
+
+countryToEmoji({ name: null, iso: 'cn'  })}
+~> 🇨🇳
+
+countryToEmoji({ name: null, iso: null  })} ~> // enpty string 
