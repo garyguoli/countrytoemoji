@@ -2,3 +2,4 @@
 // TypeScript Version: 3.2
 export * from "./src/main";
 export { countryToEmoji } from "./src/main";
+export default countryToEmoji
