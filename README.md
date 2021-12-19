@@ -11,5 +11,14 @@ $ pnpm add countrytoemoji
 ## Usage
 
 // …
-countryToEmoji({ name: 'china' })('Congo and Burma')
- // ~> ����
+countryToEmoji({ name: 'china' })
+// ~> 🇨🇳
+
+
+// …
+countryToEmoji({ iso: 'cn' })
+// ~> 🇨🇳
+
+// …
+ {countryToEmoji({ name: null, iso: 'cn'  })}
+// ~> 🇨🇳
