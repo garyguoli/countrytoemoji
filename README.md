@@ -4,7 +4,7 @@ Convert country name and ISO code to Emoji Flags not need dependencies
 ## Install
 
 ```
-$ npm install --save countrytoemoji
+$ npm install countrytoemoji
 $ yarn add countrytoemoji
 $ pnpm add countrytoemoji
 ```
