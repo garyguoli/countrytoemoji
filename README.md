@@ -9,14 +9,13 @@ $ yarn add countrytoemoji
 $ pnpm add countrytoemoji
 ```
 ## Usage
-import {countryToEmoji} from 'countrytoemoji';
+import { countryList, countryToEmoji } from "countrytoemoji";
 
 countryToEmoji({ name: 'china' })
- ~> 🇨🇳
+~> 🇨🇳
 
 countryToEmoji({ iso: 'cn' })
 ~> 🇨🇳
-
 
 countryToEmoji({ name: null, iso: 'cn'  })}
 ~> 🇨🇳
