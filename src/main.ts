@@ -1,13 +1,16 @@
 import { data } from "./contryList";
 
 export const countryToEmoji = (country) => {
-  const iso = (country.iso || "").toLowerCase();
-  const name = (country.name || "").toLowerCase();
-  const res = data.find(({ ISO, Name }) => {
-    if (ISO.toLocaleLowerCase() === iso) return true;
-    if (Name.toLowerCase() === name) return true;
+  const countryiso = (country.iso || "").toUpperCase();
+  const countryName = (country.name || "").toUpperCase();
+  const checkCode =(a,b) => countryiso.length === 3?a:b;
+  const res = data.find(({ code,code3, name }) => {
+    if (checkCode(code3,code) === countryiso) return true;
+    if (name === countryName) return true;
     return false;
   });
-  return res ? res["Emoji"] : "";
+  return res ? res["emoji"] : "";
 };
+export const countryList = data
+
 export default countryToEmoji;
